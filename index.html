@@ -5,14 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Julius - Web Developer</title>
   <link rel="icon" type="image/x-icon" href="favicon.png">
-
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: linear-gradient(135deg, #1d3557, #457b9d);
@@ -21,12 +19,10 @@
       justify-content: center;
       padding: 40px 20px;
     }
-
     .container {
       max-width: 900px;
       width: 100%;
     }
-
     .card {
       background: rgba(255, 255, 255, 0.05);
       backdrop-filter: blur(10px);
@@ -37,7 +33,6 @@
       margin-bottom: 40px;
       position: relative;
     }
-
     .profile-img {
       width: 130px;
       height: 130px;
@@ -47,33 +42,27 @@
       margin-bottom: 20px;
       transition: transform 0.4s ease, box-shadow 0.4s ease;
     }
-
     .profile-img:hover {
       transform: scale(1.05);
       box-shadow: 0 0 20px #a8dadc;
     }
-
     h1 {
       font-size: 28px;
       margin-bottom: 5px;
     }
-
     h2 {
       font-size: 20px;
       color: #a8dadc;
       margin-bottom: 15px;
     }
-
     p {
       font-size: 16px;
       color: #f1faee;
       margin-bottom: 20px;
     }
-
     .skills {
       margin-bottom: 25px;
     }
-
     .skills span {
       background-color: #a8dadc;
       color: #1d3557;
@@ -83,7 +72,6 @@
       margin: 5px;
       display: inline-block;
     }
-
     .button {
       background-color: #e63946;
       color: #fff;
@@ -97,16 +85,13 @@
       transition: all 0.4s ease;
       box-shadow: 0 0 10px transparent;
     }
-
     .button:hover {
       background-color: #d62828;
       box-shadow: 0 0 15px #ff6b6b;
     }
-
     .contact-tabs {
       margin-bottom: 20px;
     }
-
     .contact-tabs a {
       display: inline-block;
       background-color: #a8dadc;
@@ -118,11 +103,9 @@
       text-decoration: none;
       transition: background 0.3s;
     }
-
     .contact-tabs a:hover {
       background-color: #f1faee;
     }
-
     .projects {
       background: rgba(255, 255, 255, 0.05);
       backdrop-filter: blur(10px);
@@ -130,12 +113,10 @@
       padding: 30px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     }
-
     .projects h2 {
       margin-bottom: 20px;
       color: #f1faee;
     }
-
     .project-item {
       display: flex;
       align-items: center;
@@ -147,37 +128,30 @@
       color: #fff;
       transition: background 0.3s;
     }
-
     .project-item:hover {
       background: rgba(255, 255, 255, 0.2);
     }
-
     .project-item img {
       width: 100px;
       height: 70px;
       object-fit: cover;
     }
-
     .project-info {
       padding: 10px 15px;
     }
-
     .project-info h3 {
       margin: 0;
       font-size: 18px;
     }
-
     @media (max-width: 600px) {
       .project-item {
         flex-direction: column;
         align-items: flex-start;
       }
-
       .project-item img {
         width: 100%;
         height: auto;
       }
-
       .project-info {
         padding: 10px;
       }
@@ -185,9 +159,7 @@
   </style>
 </head>
 <body>
-
   <div class="container">
-
     <!-- Profile Card -->
     <div class="card">
       <img src="web.png" alt="Your Picture" class="profile-img" />
@@ -208,20 +180,19 @@
       <div class="contact-tabs">
         <a href="mailto:julisfun1234@gmail.com">📧 Email: julisfun1234@gmail.com</a>
         <a href="tel:+260768544391">📞 Phone: +260768544391</a>
-            <!-- About Me Section -->
-    <div class="card about">
-      <h2>About Me</h2>
-      <p>I'm Julius, a passionate web developer from Zambia with a love for clean code, great design, and turning ideas into fully functional digital products. Whether it's a personal portfolio or a complete business solution, I bring a creative and technical edge to every project I build.AT very affordable prices</p>
-
-      <div style="text-align: left; margin-top: 20px;">
-        <p><strong>🎓 Education:</strong> Self-taught with real-world projects</p>
-        <p><strong>📍 Location:</strong> Lusaka, Zambia</p>
-        <p><strong>💼 Experience:</strong> 3+ years building websites</p>
-        <p><strong>🛠 Tools:</strong> HTML, CSS, JavaScript, React, Node.js, GitHub</p>
-        <p><strong>🎯 Goals:</strong> Build tools that help businesses grow and shine online.</p>
       </div>
-    </div>
 
+      <!-- About Me Section -->
+      <div class="card about">
+        <h2>About Me</h2>
+        <p>I'm Julius, a passionate web developer from Zambia with a love for clean code, great design, and turning ideas into fully functional digital products. AT very affordable prices.</p>
+        <div style="text-align: left; margin-top: 20px;">
+          <p><strong>🎓 Education:</strong> Self-taught with real-world projects</p>
+          <p><strong>📍 Location:</strong> Lusaka, Zambia</p>
+          <p><strong>💼 Experience:</strong> 3+ years building websites</p>
+          <p><strong>🛠 Tools:</strong> HTML, CSS, JavaScript, React, Node.js, GitHub</p>
+          <p><strong>🎯 Goals:</strong> Build tools that help businesses grow and shine online.</p>
+        </div>
       </div>
 
       <a href="mailto:julisfun1234@gmail.com" class="button">Hire Me</a>
@@ -233,25 +204,21 @@
 
       <!-- Project 1 -->
       <a href="https://zedmarket2.vercel.app/zedshop.html" class="project-item" target="_blank">
-        
         <img src="zedmarket.png" alt="Project 1" />
         <div class="project-info">
           <h3>Project One</h3>
-              
+        </div>
+      </a>
 
-      <!-- Project 1 -->
-    <a href="https://j1u2l4.github.io/spj/" class="project-item" target="_blank">
-        
-        <img src="zedmarket.png" alt="Project 1" />
+      <!-- Project 2 -->
+      <a href="https://j1u2l4.github.io/spj/" class="project-item" target="_blank">
+        <img src="spj.png" alt="Project 2" />
         <div class="project-info">
           <h3>Project Two</h3>
         </div>
       </a>
 
     </div>
-
   </div>
-
 </body>
 </html>
-
